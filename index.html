@@ -5,42 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claudia Sotomayor</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For icons -->
 </head>
 <body>
-    <header>
+    <div class="intro">
+        <img src="logo.png" alt="Logo" class="logo">
         <h1>Claudia Sotomayor</h1>
-        <p>Étudiante en 1er année du cycle ingénieur, spécialisée en systèmes embarqués</p>
-    </header>
-    <section>
-        <h2>Contact</h2>
-        <p>+33 07 45 14 13 45</p>
-        <p><a href="mailto:sotomayorclaudia.a@gmail.com">sotomayorclaudia.a@gmail.com</a></p>
-        <p>7 avenue Vion-Whitcomb, 75016</p>
-        <p><a href="https://www.linkedin.com/in/sotomayorclaudia/">LinkedIn</a></p>
-    </section>
-    <section>
-        <h2>Education</h2>
-        <p>ECE Paris - Diplôme d'ingénieur</p>
-        <p>Université de Lima - Titre Professionnel en Génie Industriel</p>
-    </section>
-    <section>
-        <h2>Expérience Professionnelle</h2>
-        <p>Analyste Junior en Achats et Contrats - Southern Copper Corporation</p>
-        <p>Assistant en Gestion de projets - Groupe Sehe</p>
-    </section>
-    <section>
-        <h2>Compétences</h2>
+        <p>Apprentie en systèmes embarqués et ingénierie</p>
+        <p>Passionnée par la technologie, je cherche un contrat d'apprentissage de 2 ans à partir de septembre 2024, en alternance 3/4 semaines entreprise-école.</p>
+        <a href="#main" class="enter-button">Cliquez pour entrer</a>
+    </div>
+    <nav>
         <ul>
-            <li>Gestion de Projets, Leadership</li>
-            <li>Communication et Négociation</li>
-            <li>Travail en Équipe et Collaboration</li>
+            <li><a href="#main">Accueil</a></li>
+            <li><a href="#formation">Formation</a></li>
+            <li><a href="#experience">Expériences</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </section>
-    <section>
-        <h2>Télécharger CV</h2>
-        <button onclick="downloadCV()">Télécharger le CV</button>
-    </section>
+    </nav>
+    <main id="main">
+        <section id="formation">
+            <h2>Formation</h2>
+            <div class="education">
+                <img src="ece_logo.png" alt="ECE Paris" class="edu-logo">
+                <p><strong>ECE Paris</strong> - Diplôme d'ingénieur (2023 - 2026)</p>
+                <ul>
+                    <li>Électronique, Java, Traitement Numérique du Signal</li>
+                    <li>Algorithmique et Programmation Structurée</li>
+                    <li>Bases de Données, Méthodologie de Projet</li>
+                    <li>Initiation aux Réseaux</li>
+                    <li>Majeure en Systèmes Embarqués (2024 - 2026)</li>
+                </ul>
+                <img src="ulima_logo.png" alt="Université de Lima" class="edu-logo">
+                <p><strong>Université de Lima</strong> - Titre Professionnel en Génie Industriel (2017 - 2021)</p>
+                <ul>
+                    <li>Planification et Contrôle des Opérations</li>
+                    <li>Gestion de la Qualité, Marketing, Finance</li>
+                    <li>Automatisation Industrielle, Simulation de Processus</li>
+                    <li>Spécialisation en gestion de projet</li>
+                    <li>Thèse : Étude de préfaisabilité pour une usine de gel désinfectant (2023)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="experience">
+            <h2>Expériences Professionnelles</h2>
+            <div class="experience">
+                <p><strong>Analyste Junior en Achats et Contrats</strong> - Southern Copper Corporation (JAN 2023 - JUN 2023)</p>
+                <ul>
+                    <li>Négocié des contrats avec des fournisseurs en Amérique et en Europe avec un budget de 5 millions USD.</li>
+                    <li>Créé et mis à jour des manuels de procédures, améliorant la conformité et l'efficacité des processus internes.</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <p><strong>Assistant en Gestion de projets</strong> - Groupe Sehe (SEP 2020 - MAR 2021)</p>
+                <ul>
+                    <li>Réalisé des analyses approfondies du marché pour évaluer la portée et la faisabilité des nouvelles opportunités commerciales.</li>
+                    <li>Supervisé l'équipe, assurant une répartition efficace des tâches et augmentant la productivité de l'équipe.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="competences">
+            <h2>Compétences</h2>
+            <div class="skills">
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="bar"><div class="level" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <p>C/C++</p>
+                    <div class="bar"><div class="level" style="width: 70%;"></div></div>
+                </div>
+                <div class="skill">
+                    <p>HTML/CSS</p>
+                    <div class="bar"><div class="level" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="bar"><div class="level" style="width: 60%;"></div></div>
+                </div>
+                <div class="skill">
+                    <p>SQL/MySQL</p>
+                    <div class="bar"><div class="level" style="width: 60%;"></div></div>
+                </div>
+                <div class="skill">
+                    <p>MATLAB</p>
+                    <div class="bar"><div class="level" style="width: 70%;"></div></div>
+                </div>
+                <div class="skill">
+                    <p>Power BI</p>
+                    <div class="bar"><div class="level" style="width: 75%;"></div></div>
+                </div>
+                <div class="skill">
+                    <p>Gestion de Projets</p>
+                    <div class="bar"><div class="level" style="width: 80%;"></div></div>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+        <section id="languages">
+            <h2>Langues</h2>
+            <div class="language-skills">
+                <div class="language">
+                    <p>Espagnol</p>
+                    <div class="circle" data-percentage="100"></div>
+                </div>
+                <div class="language">
+                    <p>Français</p>
+                    <div class="circle" data-percentage="70"></div>
+                </div>
+                <div class="language">
+                    <p>Anglais</p>
+                    <div class="circle" data-percentage="80"></div>
+                </div>
+                <div class="language">
+                    <p>Italien</p>
+                    <div class="circle" data-percentage="40"></div>
+                </div>
+                <div class="language">
+                    <p>Portugais</p>
+                    <div class="circle" data-percentage="30"></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +33 07 45 14 13 45</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:sotomayorclaudia.a@gmail.com">sotomayorclaudia.a@gmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> 7 avenue Vion-Whitcomb, 75016 Paris, France</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/sotomayorclaudia/">LinkedIn</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/SotomayorClaudia">GitHub</a></p>
+                <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/330745141345">WhatsApp</a></p>
+            </div>
+        </section>
+        <section>
+            <h2>Télécharger CV</h2>
+            <button onclick="downloadCV()">Télécharger le CV</button>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
-
