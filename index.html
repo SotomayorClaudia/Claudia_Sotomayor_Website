@@ -4,146 +4,249 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claudia Sotomayor</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-    <div class="intro">
-        <img src="logo.png" alt="Logo" class="logo">
-        <h1>Claudia Sotomayor</h1>
-        <p>Apprentie en systèmes embarqués et ingénierie</p>
-        <p>Passionnée par la technologie, je cherche un contrat d'apprentissage de 2 ans à partir de septembre 2024, en alternance 3/4 semaines entreprise-école.</p>
-        <a href="#main" class="enter-button">Cliquez pour entrer</a>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="#main">Accueil</a></li>
-            <li><a href="#formation">Formation</a></li>
-            <li><a href="#experience">Expériences</a></li>
-            <li><a href="#competences">Compétences</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Logo_ecd.png/600px-Logo_ecd.png" alt="Logo ECE" class="logo mb-4">
+            <h1>Claudia Sotomayor</h1>
+            <p class="lead">Apprentie en systèmes embarqués et ingénierie</p>
+            <p>📅 Je cherche un contrat d'apprentissage de 2 ans à partir de septembre 2024, en alternance 3/4 semaines entreprise-école.</p>
+            <a href="CLAUDIA_SOTOMAYOR_EMBARQUES.pdf" class="btn btn-light mt-3" download>Télécharger le CV</a>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">CS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#formation">Formation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Expériences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#languages">Langues</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main id="main">
-        <section id="formation">
-            <h2>Formation</h2>
-            <div class="education">
-                <img src="ece_logo.png" alt="ECE Paris" class="edu-logo">
-                <p><strong>ECE Paris</strong> - Diplôme d'ingénieur (2023 - 2026)</p>
-                <ul>
-                    <li>Électronique, Java, Traitement Numérique du Signal</li>
-                    <li>Algorithmique et Programmation Structurée</li>
-                    <li>Bases de Données, Méthodologie de Projet</li>
-                    <li>Initiation aux Réseaux</li>
-                    <li>Majeure en Systèmes Embarqués (2024 - 2026)</li>
-                </ul>
-                <img src="ulima_logo.png" alt="Université de Lima" class="edu-logo">
-                <p><strong>Université de Lima</strong> - Titre Professionnel en Génie Industriel (2017 - 2021)</p>
-                <ul>
-                    <li>Planification et Contrôle des Opérations</li>
-                    <li>Gestion de la Qualité, Marketing, Finance</li>
-                    <li>Automatisation Industrielle, Simulation de Processus</li>
-                    <li>Spécialisation en gestion de projet</li>
-                    <li>Thèse : Étude de préfaisabilité pour une usine de gel désinfectant (2023)</li>
-                </ul>
-            </div>
-        </section>
-        <section id="experience">
-            <h2>Expériences Professionnelles</h2>
-            <div class="experience">
-                <p><strong>Analyste Junior en Achats et Contrats</strong> - Southern Copper Corporation (JAN 2023 - JUN 2023)</p>
-                <ul>
-                    <li>Négocié des contrats avec des fournisseurs en Amérique et en Europe avec un budget de 5 millions USD.</li>
-                    <li>Créé et mis à jour des manuels de procédures, améliorant la conformité et l'efficacité des processus internes.</li>
-                </ul>
-            </div>
-            <div class="experience">
-                <p><strong>Assistant en Gestion de projets</strong> - Groupe Sehe (SEP 2020 - MAR 2021)</p>
-                <ul>
-                    <li>Réalisé des analyses approfondies du marché pour évaluer la portée et la faisabilité des nouvelles opportunités commerciales.</li>
-                    <li>Supervisé l'équipe, assurant une répartition efficace des tâches et augmentant la productivité de l'équipe.</li>
-                </ul>
-            </div>
-        </section>
-        <section id="competences">
-            <h2>Compétences</h2>
-            <div class="skills">
-                <div class="skill">
-                    <p>Python</p>
-                    <div class="bar"><div class="level" style="width: 80%;"></div></div>
-                </div>
-                <div class="skill">
-                    <p>C/C++</p>
-                    <div class="bar"><div class="level" style="width: 70%;"></div></div>
-                </div>
-                <div class="skill">
-                    <p>HTML/CSS</p>
-                    <div class="bar"><div class="level" style="width: 80%;"></div></div>
-                </div>
-                <div class="skill">
-                    <p>JavaScript</p>
-                    <div class="bar"><div class="level" style="width: 60%;"></div></div>
-                </div>
-                <div class="skill">
-                    <p>SQL/MySQL</p>
-                    <div class="bar"><div class="level" style="width: 60%;"></div></div>
-                </div>
-                <div class="skill">
-                    <p>MATLAB</p>
-                    <div class="bar"><div class="level" style="width: 70%;"></div></div>
-                </div>
-                <div class="skill">
-                    <p>Power BI</p>
-                    <div class="bar"><div class="level" style="width: 75%;"></div></div>
-                </div>
-                <div class="skill">
-                    <p>Gestion de Projets</p>
-                    <div class="bar"><div class="level" style="width: 80%;"></div></div>
-                </div>
-                <!-- Add more skills as needed -->
-            </div>
-        </section>
-        <section id="languages">
-            <h2>Langues</h2>
-            <div class="language-skills">
-                <div class="language">
-                    <p>Espagnol</p>
-                    <div class="circle" data-percentage="100"></div>
-                </div>
-                <div class="language">
-                    <p>Français</p>
-                    <div class="circle" data-percentage="70"></div>
-                </div>
-                <div class="language">
-                    <p>Anglais</p>
-                    <div class="circle" data-percentage="80"></div>
-                </div>
-                <div class="language">
-                    <p>Italien</p>
-                    <div class="circle" data-percentage="40"></div>
-                </div>
-                <div class="language">
-                    <p>Portugais</p>
-                    <div class="circle" data-percentage="30"></div>
+    <main>
+        <section id="formation" class="py-5">
+            <div class="container">
+                <h2 class="text-center">🎓 Formation</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_ULima.png" alt="Université de Lima" class="card-img-top edu-logo">
+                            <div class="card-body">
+                                <h5 class="card-title">Université de Lima</h5>
+                                <p class="card-text">Titre Professionnel en Génie Industriel (2017 - 2021)</p>
+                                <ul>
+                                    <li>Planification et Contrôle des Opérations</li>
+                                    <li>Gestion de la Qualité, Marketing, Finance</li>
+                                    <li>Automatisation Industrielle, Simulation de Processus</li>
+                                    <li>Spécialisation en gestion de projet</li>
+                                    <li>Thèse : Étude de préfaisabilité pour une usine de gel désinfectant (2023)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Logo_ecd.png/600px-Logo_ecd.png" alt="ECE Paris" class="card-img-top edu-logo">
+                            <div class="card-body">
+                                <h5 class="card-title">ECE Paris</h5>
+                                <p class="card-text">Diplôme d'ingénieur (2023 - 2026)</p>
+                                <ul>
+                                    <li>Électronique, Java, Traitement Numérique du Signal</li>
+                                    <li>Algorithmique et Programmation Structurée</li>
+                                    <li>Bases de Données, Méthodologie de Projet</li>
+                                    <li>Initiation aux Réseaux</li>
+                                    <li>Majeure en Systèmes Embarqués (2024 - 2026)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <p><i class="fas fa-phone"></i> +33 07 45 14 13 45</p>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:sotomayorclaudia.a@gmail.com">sotomayorclaudia.a@gmail.com</a></p>
-                <p><i class="fas fa-map-marker-alt"></i> 7 avenue Vion-Whitcomb, 75016 Paris, France</p>
-                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/sotomayorclaudia/">LinkedIn</a></p>
-                <p><i class="fab fa-github"></i> <a href="https://github.com/SotomayorClaudia">GitHub</a></p>
-                <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/330745141345">WhatsApp</a></p>
+        <section id="experience" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center">💼 Expériences Professionnelles</h2>
+                <div id="experienceCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center">
+                                <div class="card w-75">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Analyste Junior en Achats et Contrats</h5>
+                                        <p class="card-text"><em>Southern Copper Corporation (JAN 2023 - JUN 2023)</em></p>
+                                        <ul>
+                                            <li>🔹 Négocié des contrats avec des fournisseurs en Amérique et en Europe avec un budget de 5 millions USD.</li>
+                                            <li>🔹 Créé et mis à jour des manuels de procédures, améliorant la conformité et l'efficacité des processus internes.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center">
+                                <div class="card w-75">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Assistant en Gestion de projets</h5>
+                                        <p class="card-text"><em>Groupe Sehe (SEP 2020 - MAR 2021)</em></p>
+                                        <ul>
+                                            <li>🔹 Réalisé des analyses approfondies du marché pour évaluer la portée et la faisabilité des nouvelles opportunités commerciales.</li>
+                                            <li>🔹 Supervisé l'équipe, assurant une répartition efficace des tâches et augmentant la productivité de l'équipe.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center">
+                                <div class="card w-75">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Assistante Commerciale (Stage)</h5>
+                                        <p class="card-text"><em>ECE Paris (MAI 2024 - JUILLET 2024)</em></p>
+                                        <ul>
+                                            <li>🔹 Accueilli et informé plus de 100 candidats potentiels par semaine, en coordonnant les différents pôles d’animation.</li>
+                                            <li>🔹 Géré la logistique et l'organisation des oraux, assurant un déroulement fluide des sessions d'entretien.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#experienceCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#experienceCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
         </section>
-        <section>
-            <h2>Télécharger CV</h2>
-            <button onclick="downloadCV()">Télécharger le CV</button>
-        </section>
-    </main>
-    <script src="script.js"></script>
-</body>
+        <section id="competences" class="py-5">
+            <div class="container">
+                <h2 class="text-center">🔧 Compétences</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="skill">
+                            <p>Python</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 80%;">80%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>C/C++</p>
+                            <div class="progress">
+                                <div class="progress-barAquí tienes la continuación del código `index.html` desde donde lo dejamos:
+
+```html
+                            <div class="skill">
+                                <p>HTML/CSS</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%;">80%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill">
+                                <p>JavaScript</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 60%;">60%</div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>SQL/MySQL</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 60%;">60%</div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>MATLAB</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 70%;">70%</div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>Power BI</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%;">75%</div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <p>Gestion de Projets</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%;">80%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="languages" class="py-5 bg-light">
+                <div class="container">
+                    <h2 class="text-center">🌐 Langues</h2>
+                    <div class="row text-center">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="circle" data-percentage="100">Espagnol</div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="circle" data-percentage="70">Français</div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="circle" data-percentage="80">Anglais</div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="circle" data-percentage="40">Italien</div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="circle" data-percentage="30">Portugais</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="py-5">
+                <div class="container">
+                    <h2 class="text-center">📞 Contact</h2>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <p><i class="fas fa-phone"></i> +33 07 45 14 13 45</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:sotomayorclaudia.a@gmail.com">sotomayorclaudia.a@gmail.com</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><i class="fas fa-map-marker-alt"></i> 7 avenue Vion-Whitcomb, 75016 Paris, France</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col">
+                            <a href="https://www.linkedin.com/in/sotomayorclaudia/" target="_blank"><img src="https://image.shutterstock.com/image-vector/linked-logo-icon-design-template-260nw-1394806678.jpg" alt="LinkedIn" class="social-icon"></a>
+                            <a href="https://github.com/SotomayorClaudia" target="_blank"><img src="https://image.shutterstock.com/image-vector/github-icon-logo-vector-260nw-1423039938.jpg" alt="GitHub" class="social-icon"></a>
+                            <a href="https://wa.me/330745141345" target="_blank"><img src="https://image.shutterstock.com/image-vector/whatsapp-icon-logo-vector-260nw-1423039940.jpg" alt="WhatsApp" class="social-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-primary text-white text-center py-3">
+            <div class="container">
+                <p>Claudia Sotomayor &copy; 2024</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
 </html>
+
