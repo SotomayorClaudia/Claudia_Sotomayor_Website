@@ -56,20 +56,29 @@
             margin-bottom: 20px;
         }
         .fuel-gauge svg {
-        transform: rotate(-90deg);
-    }
-    .fuel-gauge text {
-        transform: rotate(90deg);
-    }
-    .fuel-gauge p {
-        margin-top: 10px;
-    }
+            transform: rotate(-90deg);
+        }
+        .fuel-gauge text {
+            transform: rotate(90deg);
+        }
+        .fuel-gauge p {
+            margin-top: 10px;
+        }
+        .bg-header {
+            background: url('header-background.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .bg-contact {
+            background: url('contact-background.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
     </style>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <!-- Encabezado -->
-    <header class="bg-primary text-white text-center py-5">
+    <header class="bg-header text-white text-center py-5">
         <div class="container">
             <h1>Claudia Sotomayor</h1>
             <p class="lead">Apprentie en systèmes embarqués et ingénierie</p>
@@ -82,7 +91,7 @@
     </header>
 
     <!-- Sección de Contacto -->
-    <section id="contact" class="py-5">
+    <section id="contact" class="bg-contact py-5">
         <div class="container">
             <h2 class="text-center">📞 Contact</h2>
             <div class="row text-center">
@@ -145,6 +154,7 @@
                 </p>
             </div>
         </section>
+
 
         <!-- Sección de Carrusel de Imágenes -->
         <section id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
